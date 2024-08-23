@@ -45,6 +45,11 @@ h3 {
     color: #135fac;
 
 }
+.education h3{
+    background-color: transparent;
+    transition:1.5s;
+}
+ 
 
 ul {
     list-style-type: disc;
@@ -54,9 +59,24 @@ ul {
 
 ul li {
     margin-bottom: 5px;
+
 }
 
 .date {
     font-style:  underline;
     color: #000000;
+}
+ 
+.social-links ul li a{
+    transition: .5s;
+}
+.social-links ul li a:hover{
+    color: #2980b9;
+    font-size: large;
+}
+.experience ul li{
+    transition: 1s;
+}
+.experience ul li:hover{
+font-size: large;
 }
